@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NetAuto Group RheinMain</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+      background: #fff;
+      color: #181818;
+      line-height: 1.7;
+    }
+    header {
+      background: #181818;
+      color: #fff;
+      padding: 2rem 0 1.3rem 0;
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0 0 0.25em 0;
+      font-size: 2.5rem;
+      font-weight: 800;
+      letter-spacing: 0.01em;
+    }
+    header p {
+      margin: 0 0 0.3em 0;
+      font-size: 1.16rem;
+      font-weight: 400;
+      opacity: 0.92;
+    }
+    .container {
+      max-width: 730px;
+      margin: 0 auto;
+      padding: 1.5rem 1.2rem 2.5rem 1.2rem;
+      box-sizing: border-box;
+    }
+    section {
+      margin-bottom: 2.2rem;
+      border-bottom: 1.2px solid #eee;
+      padding-bottom: 1.5rem;
+    }
+    section:last-child {
+      border-bottom: none;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1.2rem;
+    }
+    h2 {
+      margin: 0 0 1em 0;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #181818;
+      letter-spacing: 0.01em;
+    }
+    .event-details p,
+    .founders-list {
+      margin: 0.22em 0 0.22em 0;
+    }
+    .event-details strong {
+      font-weight: 600;
+    }
+    .event-details .links {
+      margin-top: 1em;
+    }
+    .links {
+      display: flex;
+      gap: 1em;
+      flex-wrap: wrap;
+      margin-top: 0.5em;
+    }
+    .links a {
+      background: #181818;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 999px;
+      padding: 0.43em 1.2em;
+      font-size: 1em;
+      transition: background 0.18s, color 0.18s, box-shadow 0.2s;
+      box-shadow: 0 1px 8px 0 rgba(30,30,30,0.06);
+      display: inline-block;
+      line-height: 1.1;
+      letter-spacing: 0.01em;
+    }
+    .links a:hover {
+      background: #fff;
+      color: #181818;
+      border: 1.5px solid #181818;
+      box-shadow: 0 2px 10px 0 rgba(30,30,30,0.16);
+    }
+    .founders-list {
+      display: flex;
+      gap: 2.8em;
+      flex-wrap: wrap;
+      align-items: center;
+      margin: 0.6em 0 0 0;
+    }
+    .founder-block {
+      display: flex;
+      align-items: center;
+      gap: 0.44em;
+      font-size: 1.04em;
+      font-weight: 500;
+      color: #222;
+      background: #f7f7f7;
+      border-radius: 6px;
+      padding: 0.18em 0.85em 0.18em 0.65em;
+      transition: background 0.2s;
+    }
+    .founder-block:hover {
+      background: #ebebeb;
+    }
+    .linkedin-icon {
+      display: inline-block;
+      vertical-align: middle;
+      width: 19px;
+      height: 19px;
+      margin-left: 2px;
+      filter: grayscale(1) brightness(0.92);
+      transition: filter 0.2s;
+    }
+    .founder-block a:hover .linkedin-icon {
+      filter: none;
+    }
+    @media (max-width: 700px) {
+      .container {
+        padding: 1.1em 0.5em 1.1em 0.5em;
+      }
+      header {
+        padding: 1.2em 0 0.7em 0;
+      }
+      header h1 {
+        font-size: 1.25rem;
+      }
+      header p {
+        font-size: 1em;
+      }
+      h2 {
+        font-size: 1.02rem;
+      }
+      .links {
+        flex-direction: column;
+        gap: 0.5em;
+      }
+      .founders-list {
+        flex-direction: column;
+        gap: 0.7em;
+      }
+      .founder-block {
+        font-size: 0.98em;
+        padding: 0.17em 0.7em 0.17em 0.5em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>NetAuto Group RheinMain</h1>
+    <p>A hub for network automation professionals in the Rhein-Main region</p>
+  </header>
+  <main class="container">
+
+    <section>
+      <h2>About</h2>
+      <p>
+        NetAuto Group RheinMain brings together network automation enthusiasts and professionals to share knowledge, explore tools, and solve real-world challenges. Our events are interactive forums to connect, collaborate, and learn from each other's experience.
+      </p>
+    </section>
+
+    <section>
+      <h2>First Event</h2>
+      <div class="event-details">
+        <p><strong>Date:</strong> 4 September 2025, 18:30 CEST</p>
+        <p><strong>Location:</strong> Logicalis Office, Siemensstraße 10, 63263 Neu-Isenburg, Germany</p>
+        <p>Proudly supported by Logicalis GmbH. Food, drinks, and networking included!</p>
+        <div class="links">
+          <a href="https://www.meetup.com/netauto-rheinmain/events/308664470/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link&utm_version=v2" target="_blank">Meetup Event</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Founders</h2>
+      <div class="founders-list">
+        <div class="founder-block">
+          Florian Löhden
+          <a href="https://www.linkedin.com/in/florian-loehden/" target="_blank" aria-label="Florian LinkedIn">
+            <svg class="linkedin-icon" viewBox="0 0 24 24" fill="currentColor">
+              <circle cx="12" cy="12" r="12" fill="#0077b5"/>
+              <path d="M8.12 17.36V10.4H5.6v6.96h2.52zm-1.26-7.85c.8 0 1.29-.53 1.29-1.2 0-.67-.49-1.19-1.28-1.19-.79 0-1.29.52-1.29 1.19 0 .67.5 1.2 1.28 1.2h.01zm2.77 7.85h2.52v-3.9c0-.21.02-.41.08-.56.17-.41.54-.83 1.17-.83.82 0 1.15.62 1.15 1.54v3.75h2.52V13.3c0-2.11-1.12-3.09-2.62-3.09-1.21 0-1.74.67-2.03 1.15v.03h-.02a4.1 4.1 0 0 1 .02-.03V10.4h-2.52c.03.6 0 6.96 0 6.96z" fill="#fff"/>
+            </svg>
+          </a>
+        </div>
+        <div class="founder-block">
+          Uzma Saman Chanderki
+          <a href="https://www.linkedin.com/in/uzmasaman/?originalSubdomain=de" target="_blank" aria-label="Uzma LinkedIn">
+            <svg class="linkedin-icon" viewBox="0 0 24 24" fill="currentColor">
+              <circle cx="12" cy="12" r="12" fill="#0077b5"/>
+              <path d="M8.12 17.36V10.4H5.6v6.96h2.52zm-1.26-7.85c.8 0 1.29-.53 1.29-1.2 0-.67-.49-1.19-1.28-1.19-.79 0-1.29.52-1.29 1.19 0 .67.5 1.2 1.28 1.2h.01zm2.77 7.85h2.52v-3.9c0-.21.02-.41.08-.56.17-.41.54-.83 1.17-.83.82 0 1.15.62 1.15 1.54v3.75h2.52V13.3c0-2.11-1.12-3.09-2.62-3.09-1.21 0-1.74.67-2.03 1.15v.03h-.02a4.1 4.1 0 0 1 .02-.03V10.4h-2.52c.03.6 0 6.96 0 6.96z" fill="#fff"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Connect</h2>
+      <div class="links">
+        <a href="https://www.linkedin.com/company/netauto-group-rheinmain" target="_blank">LinkedIn Group</a>
+        <a href="mailto:contact@netauto.io">Email Us</a>
+      </div>
+    </section>
+
+  </main>
+</body>
+</html>
