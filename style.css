@@ -48,7 +48,12 @@ h2 {
     color: #181818;
     letter-spacing: 0.01em;
 }
+.event-details {
+    margin-top: 0.5em;
+}
+
 .event-details p,
+
 
 .founders-list {
     margin: 0.22em 0 0.22em 0;
